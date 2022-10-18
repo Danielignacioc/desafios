@@ -1,0 +1,16 @@
+html
+{
+    background-color: #bebebe;
+    align-self: center;
+}
+
+#img
+{
+    border-radius:100px;
+        
+}
+
+.tabla-class
+{
+    border-style: inset black 10px;
+}

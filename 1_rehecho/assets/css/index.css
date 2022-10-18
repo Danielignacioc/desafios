@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+ 
+
+
+
+html 
+{
+    background-color: whitesmoke;
+    align-self: center;
+}
+
+#img 
+{
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: black;
+
+
+}
+
+.tabla-class 
+{
+    border-style: solid black;
+    border-width: 10px;
+}
+
+
+.titulo-class 
+{
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30%;
+    width: 40%;
+    height: auto;
+    color: whitesmoke;
+    text-indent: 10%;
+    font-size: 35px;
+    font-family: 'Silkscreen', cursive;
+}
+
+a 
+{
+    border-style: inline;
+    border-color: black;
+    font-family: Arial, sans-serif;
+    background-color: none;
+    color: white;
+    font: bold;
+    font-weight: 30px;
+    text-decoration: none;
+    border-radius: 30px;
+ 
+}
+
+.clase-a
+{
+    border-width:25% !important; 
+    font-size: 25px;
+    font-family:'Roboto-mono';
+    color: brown;
+    font: bold, italic;
+}
+
+#correo-id 
+{
+    border-style: solid;
+    width: 25%;
+    border-radius: 5px;
+    background-color: Yellow;
+    font-size: 35;
+    border-width: 3px;
+    font-family: ;
+}
+
+#linkedin-id 
+{
+    background: darkblue;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font: bold;
+    flex: auto;
+
+}
+
+.h2-resumen {
+    background-color: whitesmoke;
+    margin-top: 65px;
+    width: 40%;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 3px;
+    ;
+
+}
+
+.resumen-class {
+    text-align: justify;
+    width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h2
+{
+    background-color: whitesmoke;
+    text-align: center;
+
+
+
+}
+#personales-id
+{
+    width: 18% !important;
+    /* border-style: solid; */ 
+
+    
+    width: 13%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 1px;
+    font:bold;
+    font-family: sans-serif, italic;
+    border-width: 2px;
+    border-color: black;
+}
+
+
+th {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-weight: 12px;
+}
+
+
+tr {
+    background-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-style: italic;
+
+}
+td
+{
+    width: 160px;
+    height:auto;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
+li:nth-child(odd) {
+    background-color: whitesmoke;
+    width: 200px;
+    color:black;
+    ;
+}
+
+li:nth-child(even) {
+    background-color: black;
+    width: 200px;
+    color:grey;
+}
+
+li {
+    text-align: justify !important;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+
+}
+
+table {
+    text-align: justify;
+
+}
+
+h3 {
+    font: bold;
+    background-color: whitesmoke;
+    width: 70%;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 3px;
+
+}
+
+
+#tabla-2-id
+{
+    float:left;
+    margin-left: 75%;
+    margin-top: -240px;
+    border-width: 15px;
+
+}
+
+#extra-hab-blandas-id
+{
+    margin-top: 50px;
+}
+    
+
+
+
+/* .bloque-listas
+{
+
+    width:15%;
+    height: auto;
+    margin-left:0%;
+
+
+} */
+
+/* .bloque-completo-class
+{
+/* /*     width:250px; 
+/*  */ /* height: auto; */ 
+  /* margin: left 200px; */ 
+  
+ .bloque-completo-class
+ {
+    margin-top: 0%;
+ }
+
+
+.bloque-contacto
+{
+/* background */-color: black;
+width:275px ;
+margin-left :20%;
+margin-top: -160px;;
+
+/* float: left;
+display: table-cell; */
+/* vertical-align:top;
+ *//* top:auto;
+ */
+ text-decoration: none;
+}
+.bloque-tabla-class
+{
+    margin-left: 720px;
+    /* margin-top: 2px; */
+    margin-top: -380px;
+        /* font: bold; */
+/*     background-color: rgb(245, 243, 243);
+ */    width: 100%;
+        text-align: center;
+/*     border-style: solid;
+ */    border-color: black;
+    /* border-radius: 10%; */
+    /* border-width: 1px; */
+    
+
+}
+
+ul
+{
+    margin-top: 30px;
+}
+
+
+.bloque-ul {
+    
+    margin-right: 15%;
+    width: 25%;
+    height: auto;
+    font-style:bold;
+    margin-left: 75%;
+    margin-top: 20px;
+
+    
+} 
+
+.bloque-ol {
+    
+    margin-left: 50%;
+    width: 25%;
+    
+   /*  height: auto; */
+   float: left;
+}
+
+.segunda-hoja-bloque-class
+{
+/*     margin-bottom: 60% !important;
+ */    margin-top: -23%;
+        width: 100%;
+}
+
