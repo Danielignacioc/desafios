@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
  
 
-
-
 html 
 {
-    background-color: whitesmoke;
+    background-color: rgb(201, 147, 147);
     align-self: center;
 }
 
@@ -90,7 +88,7 @@ a
     border-style: solid;
     border-color: black;
     border-radius: 10%;
-    border-width: 3px;
+    border-width: 5px;
     
 
 }
@@ -112,10 +110,8 @@ h2
 }
 #personales-id
 {
-    width: 18% !important;
-    /* border-style: solid; */ 
+    width: 18% !important; 
 
-    
     width: 13%;
     border-style: solid;
     border-color: black;
@@ -123,7 +119,7 @@ h2
     border-width: 1px;
     font:bold;
     font-family: sans-serif, italic;
-    border-width: 2px;
+    border-width: 5px;
     border-color: black;
 }
 
