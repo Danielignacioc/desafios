@@ -205,21 +205,22 @@ h3 {
 
 #extra-hab-blandas-id
 {
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
     
 
 
 
-/* .bloque-listas
+.bloque-listas
 {
 
-    width:15%;
+  /*   width:15%; */
     height: auto;
-    margin-left:0%;
+    margin-right:100px;
 
 
-} */
+} 
 
 
 .bloque-contacto
@@ -233,9 +234,9 @@ margin-top: -160px;;
 
 .bloque-tabla-class
 {
-    margin-left: 720px;
+    margin-left: 620px;
 
-    margin-top: -550px;
+    margin-top: -670px;
     width: 100%;
     text-align: center;
     border-color: black;
@@ -277,16 +278,22 @@ ul
 .portafolio-class
 {
     width: 20%;
-    margin-top: 50%;
+    /* margin-top: 50%; */
     
     font-size: 40px;
     font: bold;
     background-color: black;
     text-align:center;
-/*     outline-color: red;
-    outline-width: 5px; */
-    ;
+    float:right;
 }
 
 
 
+.icon-check-class
+{
+    float: right;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
