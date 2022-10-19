@@ -35,7 +35,7 @@ html
     text-indent: 10%;
     font-size: 35px;
     font-family: 'Silkscreen', cursive;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 a 
@@ -111,9 +111,9 @@ h2
 }
 #personales-id
 {
-    width: 18% !important; 
+    width: 41% !important; 
 
-    width: 13%;
+    
     border-style: solid;
     border-color: black;
     border-radius: 10%;
@@ -128,18 +128,20 @@ h2
 th {
     background-color: whitesmoke;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: black;
     font-weight: 12px;
+    border-radius: 5px;
 }
 
 
 tr {
     background-color: yellow;
     border-style: solid;
-    border-width: 1px;
+    border-radius: 5px;
     border-color: black;
     font-style: italic;
+    border-width: 3px;
 
 }
 td
@@ -148,7 +150,7 @@ td
     height:auto;
     border-radius: 5px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
 }
 
 
@@ -196,7 +198,7 @@ h3 {
 {
     float:left;
     margin-left: 75%;
-    margin-top: -240px;
+    margin-top: -130px;
     border-width: 15px;
 
 }
@@ -219,48 +221,27 @@ h3 {
 
 } */
 
-/* .bloque-completo-class
-{
-/* /*     width:250px; 
-/*  */ /* height: auto; */ 
-  /* margin: left 200px; */ 
-  
- .bloque-completo-class
- {
-    margin-top: 0%;
- }
-
 
 .bloque-contacto
 {
-/* background */-color: black;
+/* background-color: black;  */  /* BLOQUE DE CONTACTO BACKGROUND PARA PRUEBAS */
 width:275px ;
 margin-left :20%;
 margin-top: -160px;;
-
-/* float: left;
-display: table-cell; */
-/* vertical-align:top;
- *//* top:auto;
- */
- text-decoration: none;
 }
+
+
 .bloque-tabla-class
 {
     margin-left: 720px;
-    /* margin-top: 2px; */
-    margin-top: -550px;
 
-        /* font: bold; */
-/*     background-color: rgb(245, 243, 243);
- */    width: 100%;
-        text-align: center;
-/*     border-style: solid;
- */    border-color: black;
-        border-width: 3px;
-    /* border-radius: 10%; */
-    /* border-width: 1px; */
+    margin-top: -550px;
+    width: 100%;
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
     
+        
 
 }
 
@@ -307,22 +288,5 @@ ul
     ;
 }
 
-/* 
-/* .segunda-hoja-bloque-class
-{
-/*     margin-bottom: 10% !important;
-     background-color: darkgrey;
-        margin-top: -23%;
-        width: 100%;
-
-  
- */
 
 
-/*  *
- {
-    padding-left: 15px; 
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 15px;
- } */
