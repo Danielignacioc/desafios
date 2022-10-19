@@ -113,7 +113,7 @@ h2
 #personales-id
 {
     width: 18% !important;
-    /* border-style: solid; */ 
+ 
 
     
     width: 13%;
@@ -209,24 +209,6 @@ h3 {
     margin-top: 50px;
 }
     
-
-
-
-/* .bloque-listas
-{
-
-    width:15%;
-    height: auto;
-    margin-left:0%;
-
-
-} */
-
-/* .bloque-completo-class
-{
-/* /*     width:250px; 
-/*  */ /* height: auto; */ 
-  /* margin: left 200px; */ 
   
  .bloque-completo-class
  {
@@ -236,35 +218,23 @@ h3 {
 
 .bloque-contacto
 {
-/* background */-color: black;
+background-color: black;
 width:275px ;
 margin-left :20%;
 margin-top: -160px;;
-
-/* float: left;
-display: table-cell; */
-/* vertical-align:top;
- *//* top:auto;
- */
- text-decoration: none;
+text-decoration: none;
 }
+
+
 .bloque-tabla-class
 {
     margin-left: 720px;
-    /* margin-top: 2px; */
-    margin-top: -550px;
-
-        /* font: bold; */
-/*     background-color: rgb(245, 243, 243);
- */    width: 100%;
-        text-align: center;
-/*     border-style: solid;
- */    border-color: black;
-        border-width: 3px;
-    /* border-radius: 10%; */
-    /* border-width: 1px; */
     
-
+        margin-top: -550px;
+        width: 100%;
+        text-align: center;
+        border-color: black;
+        border-width: 3px;
 }
 
 ul
@@ -291,9 +261,7 @@ ul
     
     margin-left: 50%;
     width: 25%;
-    
-   /*  height: auto; */
-   float: left;
+    float: left;
 }
 
 .portafolio-class
@@ -305,27 +273,6 @@ ul
     font: bold;
     background-color: black;
     text-align:center;
-/*     outline-color: red;
-    outline-width: 5px; */
-    ;
+
 }
 
-/* 
-/* .segunda-hoja-bloque-class
-{
-/*     margin-bottom: 10% !important;
-     background-color: darkgrey;
-        margin-top: -23%;
-        width: 100%;
-
-  
- */
-
-
-/*  *
- {
-    padding-left: 15px; 
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 15px;
- } */
