@@ -2,15 +2,35 @@ html
 {
     background-color: #bebebe;
     align-self: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #img
 {
     border-radius:100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;;
         
 }
 
 .tabla-class
 {
     border-style: inset black 10px;
+}
+
+h2
+{
+    border-style: solid;
+    width: 15%;
+    text-align: center;
+
+}
+
+
+.resumen-class
+{
+    width: 40%;
+    border-radius: 20px;
+   text-align: justify;
 }
