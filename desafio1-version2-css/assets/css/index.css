@@ -293,7 +293,8 @@ ul
 {
     float: right;
     align-items: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: 30px;
+    width: 50px;
+    margin-left: 0%;
     
 }
