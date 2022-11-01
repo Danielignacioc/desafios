@@ -1,0 +1,153 @@
+/* td
+{
+    
+    border-style: solid;
+    border-color: rgb(138, 9, 9);
+    border-width: 0.2rem;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+th
+{
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 0.7em;
+    background-color: rgb(173, 247, 54);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ */
+
+
+/* .tabla
+{
+    border-style: inline;
+    border-width: 10px;
+    border-color: aquamarine;
+
+
+} */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto+Condensed:ital,wght@1,300&family=Shalimar&display=swap');
+ */
+html
+{
+    background-color: rgb(28, 28, 32);
+}
+
+
+.menu-container
+{
+    background-color: rgb(22, 22, 22);
+    width: 45.4rem;
+    box-shadow: 20%;
+    text-align: justify;
+    color: white;
+    font:bold italic;
+    border-radius: 5px;
+    border-width: 0.5rem;
+    
+}
+
+tr
+{
+    background-color: rgb(76, 110, 6);
+}
+
+
+td
+{
+    background-color: rgb(97, 92, 92);
+    box-shadow: 50%;
+    text-align: justify;
+    color: white;
+    font:bold italic;
+}
+th
+{
+    padding: 1rem;
+    text-align: center;
+    border-bottom: solid 0.2rem rgb(0, 0, 0);
+}
+
+tr th td
+{
+    opacity: 60%;
+}
+
+
+.bar-nav
+{
+    background-color: black;
+    opacity: 70%;
+    color:white;
+    height: 20%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.titulo 
+{
+    display: inline;
+    width: max-content;background-color: navy;
+    
+}
+
+a{
+    padding-right: 19.7em ;
+    text-decoration: none;
+    color:white;
+    font-family: 'Shalimar', cursive;   
+
+    
+}
+
+p
+
+{
+    display: block;
+    width: 55%;
+    height: auto;
+    text-align: justify;
+    color: white;
+    
+   
+}
+
+.desc
+{
+    display: block;
+}
+
+img
+{
+    display: block;
+    float:right;
+    margin-right: 5rem;
+    margin-top: -35%;
+    opacity: 50%;
+}
+
+
+s
+.nav-bar-middle
+{
+    display: inline;
+
+    text-align: right;
+
+
+}
