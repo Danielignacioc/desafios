@@ -161,11 +161,12 @@ section {
     display: inline-block;
 /*     background: #ffffff url(/assets/img/patronreptil.png) fixed repeat;
  */ 
-    color: white;
+        
     /* font: bold 10em; */
 /*     line-height: 5em rgba(210, 9, 9, 0.968) solid;
- */    margin-top: 5em;
-    margin-bottom: 5em;
+ */    /* margin-top: 5em; */
+    /* margin-bottom: 5em; */
+    outline: solid 10px #000000;
     
 /*     align-items: center;
  */}
@@ -195,7 +196,7 @@ p {
     border-radius: 5px;
     border-color: #ffffff;
     float: left;
-
+    color: white;
 }
 
 /* .p2 {
