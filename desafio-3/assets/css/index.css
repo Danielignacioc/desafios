@@ -1,53 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
- 
 
-html
-{
-    width:1280px;
-    height: auto;
-/*     background-image: repeat fixed url('/assets/img/patronreptil.png');
+
+html {
+    width: auto;
+    height: 1956px;
+    /*     background-image: repeat fixed url('/assets/img/patronreptil.png');
+
+
+*/
+
+
+    background: fixed url(/assets/img/patronreptil.png) repeat;
+    background-size: 15px;
+
+}
+
+
+body {
+    background: center center;
+}
+
+.bg-iguana {
+
+
+    top: 73px;
+    left: 0px;
+    width: 1280px;
+
+
+    height: 727px;
+
+    /*     height: auto;
  */
-}
+    background: fixed repeat url('/assets/img/1730bg.jpg');
 
-body
-{
-  /*   background-color: rgb(65, 58, 58);
-    background-image:url(/assets/img/iganoski.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover; */
-    
-    /* background: transparent url('/assets/img/jj-shev-QZkSJYowJ9g-unsplash.jpg') 0%  0% no-repeat padding-box; */
-    background:  fixed no-repeat padding-box rgb(0, 0, 0) url('/assets/img/1730bg.jpg') 0 40px;
-    background-size: 100% 80%;
-    background-position: center 50%;
-    
+    background-size: 100% 90%;
+    /*     padding: 50%;
+*/
 
 
 }
 
 
-h3
-{
+header {
+    background: black;
+    line-height: rgb(61, 3, 3) solid 3em;
+}
+
+h3 {
     font-family: 'Raleway', sans-serif;
-    font:bold;
+    font: bold;
     color: white;
     background-color: black;
-    
-    
+
+
 }
 
 
-header
-{
-    text-align: left;
+header {
+    top: 73px;
+    left: 0px;
+    width: 1280px;
     background-color: black;
-    
+    /*     text-align: justify;
+ */
+
+
 }
 
 
-  
- /*   la propiedad de color 
+
+/*   la propiedad de color 
  de fondo no funciona con header pero
  si accedo a la clase titulo de h3 si se puede.
  Seguramente el valor inline de displat tiene
@@ -55,29 +78,134 @@ header
 
 
 
-.titulo
+/* .titulo
 {
     display: inline;
     text-align: center;
     
-}
+} */
 /* la propuedad text-align no funciona,
 por el valor inline de display  */
 
 
-img
+/* img
 {
-    
-    width: 10rem;
+    float: right -30%;
+    width: 3rem;
     height: auto;
 
-    border: rgb(32, 1, 1) 1em solid;
-    border-radius: 15%;
-    outline: 5px black solid;
-    margin: 5%;
-    margin-bottom: -15px;
-    opacity: 80%;
-    margin-top: 50%;
+    border: rgb(32, 1, 1) 0.5em solid;
+    border-radius: 5px;
+    outline: 0.3px black solid;
+    margin: 10px  10px;
+/*     margin-bottom: -15px;
+   opacity: 90%;
+ /* position:right 35% bottom 0% ; 
+
+} */
 
 
+img {
+    float: right;
+    width: 10em;
+    height: auto;
+
+    border: rgb(32, 1, 1) 0.5em solid;
+    border-radius: 5px;
+    outline: 0.3px black solid;
+    margin-right: 190px;
+    margin-top: 10px;
+    opacity: 1;
+
+
+
+    /* position:right 35% bottom 0% ; */
+}
+
+/*  .bg-patron
+{
+     float: center;
+ width: 70%;
+    height: 5%;
+/*  background:url('/assets/img/patronreptil.png') repeat;
+  background-size: 30px;
+    position: bottom 50% right -5em;
+    margin-top:70%; 
+    margin-left: 60%;
+    background: black fixed 3px url(/assets/img/patronreptil.png);
+} */
+
+section {
+/*     display: flex;
+ */ 
+/*  display:inline;   
+ */    top: 800px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+
+}
+
+#camaleon {
+    
+    float:left;;
+    width:15em;
+}
+
+/* .seccion-2 {
+    align-self: bottom 20%;
+} */
+
+
+.bloque-txtimg {
+    display: inline-block;
+/*     background: #ffffff url(/assets/img/patronreptil.png) fixed repeat;
+ */ 
+    color: white;
+    /* font: bold 10em; */
+/*     line-height: 5em rgba(210, 9, 9, 0.968) solid;
+ */    margin-top: 5em;
+    margin-bottom: 5em;
+    
+/*     align-items: center;
+ */}
+
+
+
+
+
+
+/* p{   display: inline-block;
+    text-align: justify;
+}  /* intento por alinear los 2 parrafos*/
+
+
+p {
+    /*     display: inline-block;
+ */
+    /*     border:solid #0000 15px ;
+ */
+    display: inline;
+    font-size: large;
+    background: fixed rgb(21, 19, 16);
+    width: 50%;
+    /*     background-image: url(/assets/img/jesper-aggergaard-wEIbBoPklos-unsplash.jpg) ;
+ */
+    margin: 10px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    float: left;
+
+}
+
+/* .p2 {
+    margin-right: 10em;
+}
+
+ */
+
+
+
+.bloque-txtimg {
+    padding-left: 20px;
 }
