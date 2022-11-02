@@ -43,15 +43,33 @@ body {
 
 
 header {
-    background: black;
-    line-height: rgb(61, 3, 3) solid 3em;
+    display:inline-block;
+    background: url(/assets/img/patronreptil.png) fixed repeat;
+    background-size: 13px;
+    font-size: xx-large;
+    text-align: center;
+    height: 2rem;
+    /* border-radius: 25%;
+    border-style: solid;
+ */
+    /* line-height:-100% rgb(61, 3, 3) solid 3em; */
+
+    /* padding: 0.3em;
+    margin-right: 0.3em; */
+/*     padding-right: -25px;*/
+    
 }
+
 
 h3 {
     font-family: 'Raleway', sans-serif;
     font: bold;
-    color: white;
-    background-color: black;
+    color: rgb(85, 5, 5);
+    font-size: xx-large;
+    /* background-color: black; */
+    border-bottom: solid 1rem black ;
+    text-align: center;
+    
 
 
 }
