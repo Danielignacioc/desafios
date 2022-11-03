@@ -3,7 +3,7 @@
 
 html {
     width: auto;
-    height: 1956px;
+    height: 100%;
     /*     background-image: repeat fixed url('/assets/img/patronreptil.png');
 
 
@@ -11,21 +11,21 @@ html {
 
 
     background: fixed url(/assets/img/patronreptil.png) repeat;
-    background-size: 15px;
+    background-size: 1%;
 
 }
 
-
+/* 
 body {
     background: center center;
-}
+} */
 
 .bg-iguana {
 
 
-    top: 73px;
-    left: 0px;
-    width: 1280px;
+    top: 10%;
+    left: 0%;
+    width: 100%; 
 
 
     height: 727px;
@@ -227,4 +227,60 @@ p {
 
 .bloque-txtimg {
     padding-left: 20px;
+}
+
+.iconos
+{
+    display: inline-block;
+    width: 105%;
+    /* margin-top: 5%; */
+    position: center;
+    border: solid black 0.5rem ;
+    margin-left: -8px;
+}   
+
+i
+{
+    width: 60%;
+    height: auto;
+}
+
+.galeria
+{
+    display: inline-block;
+    margin-top: 10%;
+    height: 15%;
+
+}
+
+footer
+{
+    
+/*     background: repeat url(/assets/img/patronreptil-inverse.png);
+ */
+    background-color: black;
+    background-size: 10px;
+    height: 2.5rem;
+    border:rgb(32, 1, 1) solid 0.4rem;
+    margin-bottom: -1%;
+    margin-left: -0.6%;
+    margin-top: 5%;
+    text-align: center;
+    opacity: 85%;
+    
+
+
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font:bold;
+    text-align: center;
+    font-size: medium;
+    background-color: black;
+    padding-top: -50%;
+    
 }
