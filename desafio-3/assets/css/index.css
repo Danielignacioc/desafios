@@ -70,6 +70,9 @@ img
 }
 
 
+
+
+
 section {
 
  
@@ -124,6 +127,7 @@ p {
     position: center;
     border: solid black 0.5rem ;
     margin-left: -8px;
+    
 }   
 
 i
@@ -140,11 +144,13 @@ i
 
 }
 
+
+
 footer
 {
     background-color: black;
     background-size: 10px;
-    height: 2.5rem;
+    height: 3rem;
     border:rgb(32, 1, 1) solid 0.4rem;
     margin-bottom: -1%;
     margin-left: -0.6%;
