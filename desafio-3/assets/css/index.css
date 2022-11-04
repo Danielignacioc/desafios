@@ -34,27 +34,30 @@ header
 }
 
 
-h3 {
+h3 
+{
     display:inline;
     font-family: 'Raleway', sans-serif;
     font: bold;
     color: rgb(85, 5, 5);
     font-size: xx-large;
     border-bottom: solid 0.4rem rgb(0, 0, 0, 30%);
-    text-align: center !important;
 
 }
 
-/* 
-header 
+header .titulo
 {
-    top: 73px;
-    left: 0px;
-    width: 1280px;
-    background-color: black;
+    float:left;
+    margin-left: 400%;
+    margin-top: 1rem;
 
 }
- */
+
+.galeria h3
+{
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
 
 img 
 {
@@ -127,9 +130,7 @@ p {
 .bloque-txtimg
 {
     display: inline-block;
-    padding-left: 20px;
-   /*  margin-bottom: -25%; */
-    
+    padding-left: 20px;    
 }
 
 .iconos
@@ -215,11 +216,7 @@ a
 
 .caract-container p:hover
 {
-   
     background: orange;
-    /* box-shadow: black solid 10em; */
-
-
 }
 
 
