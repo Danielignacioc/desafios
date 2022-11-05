@@ -162,6 +162,7 @@ h3:hover
 {
     transform: scale(2);
 }
+
 .galeria
 {
     display: inline-block;
@@ -219,12 +220,6 @@ a
     background: orange;
 }
 
-
-header:section:hover
-{
-    background: orange;
-
-}
 
 section #foto
 {
