@@ -1,0 +1,90 @@
+.navbar-container
+{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
+    color: black;
+    font: arial bold;
+    font-style: solid;
+}
+
+
+.aside-container
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgb(23, 23, 23);
+    color: rgb(210, 210, 210);
+    min-height: 50vh;
+    width: 90%;
+    
+
+
+    justify-content: center;
+
+    
+}
+
+.aside-container ul
+{
+    margin-top: -260%;
+}   
+
+
+
+
+.productos-container
+{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+    justify-items: center;
+    align-items: right;
+
+
+}
+ 
+.item
+{
+
+    align-items: center;    
+}
+
+img
+{
+    width:30%;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+.medio-container
+{
+    display: grid;
+    grid-template-columns:1fr 8fr;
+}
+
+
+.boton
+{
+    background-color: darkgray;
+    color: black;
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer-container
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.2em;
+    background-color: black;
+    color: whitesmoke;
+}
