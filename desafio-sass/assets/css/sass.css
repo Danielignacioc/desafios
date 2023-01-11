@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  background-color: rgb(60, 60, 60);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.card h1 {
+  color: #cf649a;
+  margin-left: 4rem;
+}
+.card .titulo {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 4em;
+  font: bold;
+}
+.card p, .card button, .card h5 {
+  color: #cf649a;
+  font-family: "Gloria Hallelujah", cursive;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,76 @@
+//variables
+
+$primary: blue !default;
+$secondary: rgb(123, 123, 123) !default;
+$sucess: green !default;
+$info: cyan !default;
+$warning: red !default;
+$danger: red !default;
+$light: rgb(193, 193, 193) !default;
+$dark: rgb(60, 60, 60) !default;
+$purple: #cf649a;
+
+
+
+$theme-colors: 
+(
+    "primary": $primary,
+    "secondary": $secondary,
+    "sucess": $sucess,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "purple": $purple
+
+ ) !default;
+
+
+ @mixin card ($fondo: $dark)
+ {
+    display: flex;
+    background-color: $fondo;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+ }
+
+
+ .card
+ {
+    @include card();
+
+    h1
+    {
+        color: $purple;
+        margin-left:  4rem;
+        
+        
+    }
+
+    .titulo
+        {
+            font-family: 'Gloria Hallelujah', cursive;
+            font-size: 4em;
+            font: bold;
+         
+        }    
+
+        p, h5
+        {
+            color: $purple;
+            font-family: 'Gloria Hallelujah', cursive;
+            margin-left: 2rem;
+            margin-bottom: 2rem;;
+        }
+
+        button
+        {
+            @extend p
+        }
+        
+
+    }
+
